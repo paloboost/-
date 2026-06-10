@@ -25,6 +25,7 @@ font-family:'Pretendard',sans-serif;
 body{
 background:#0f1117;
 color:white;
+ overflow-x:hidden;
 }
 
 header{
@@ -328,7 +329,9 @@ background:#090b10;
 
     transition:.3s;
 }
-
+.rank-grid{
+    grid-template-columns:repeat(4,1fr);
+}
 .about-btn:hover{
     transform:translateY(-5px);
 }
@@ -430,6 +433,30 @@ nav{
 footer{
     padding:30px 15px;
 }
+
+.rank-grid{
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+}
+
+.rank-card{
+    padding:15px;
+}
+
+.rank-card img{
+    width:50px;
+}
+
+.rank-card h3{
+    font-size:13px;
+    line-height:1.4;
+    word-break:keep-all;
+}
+
+.rank-card span{
+    font-size:15px;
+}
+
 
 }
 </style>
