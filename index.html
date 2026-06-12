@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>발로란트|대리|대리최저가|팔로팀|강의|버스|팔로팀|PALO TEAM</title>
- <meta name="google-site-verification" content="wcuBr0sRxKKz4R6avV_fn_Eun7wA4_SNMkzj_FzZZoA" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -22,6 +21,7 @@ padding:0;
 box-sizing:border-box;
 font-family:'Pretendard',sans-serif;
 }
+
 
 body{
 background:#0f1117;
@@ -462,6 +462,88 @@ footer{
 }
 </style>
 </head>
+<div id="discountPopup" class="popup">
+    <div class="popup-box">
+
+        <h1 class="popup-logo">PALO TEAM</h1>
+
+        <img src="rad.png" width="290px" class="popup-img">
+
+        <h2>🎉 OPEN EVENT 🎉</h2>
+
+        <p>
+            현재 모든 서비스<br>
+            <span>10% 할인 진행중</span>
+        </p>
+
+        <button onclick="closePopup()">확인</button>
+
+    </div>
+</div>
+
+<style>
+.popup{
+    position:fixed;
+    inset:0;
+    background:rgba(0, 0, 0, 0.7);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:99999;
+}
+
+.popup-box{
+    background-color: #270101;
+   
+    width:90%;
+    max-width :500px;
+
+    min-height:600px; /* 세로 길이 */
+
+    padding:50px 40px;
+
+    border-radius:20px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    border:2px solid #ff4655;
+    box-shadow:0 0 40px rgba(255,70,85,.4);
+}
+.popup-box h2{
+    color:#ff4655;
+    margin-bottom:15px;
+}
+
+.popup-box p{
+    font-size:18px;
+}
+
+.popup-box span{
+    color:#ff4655;
+    font-weight:bold;
+}
+
+.popup-box button{
+    margin-top:20px;
+    background:#ff4655;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:10px;
+    cursor:pointer;
+}
+</style>
+
+<script>
+function closePopup(){
+    document.getElementById('discountPopup').style.display='none';
+}
+</script>
 <body>
 
 <title>PALO TEAM</title>
@@ -764,19 +846,24 @@ footer{
         <div class="booster-card">
   
             <h1>Palo(PULLUP)</h1>
-            <h3>Radiant <img src="rad.png" width="20px"> </h3>
+            <h3>Radiant <img src="rad.png" width="15px"> </h3>
             <p>최대티어 아시아 서버 레디언트 850점</p>
         </div>
 
         <div class="booster-card">
             <h1>K4R(.)</h1>
-            <h3>Radiant<img src="rad.png" width="20px"> </h3>
+            <h3>Radiant<img src="rad.png" width="10px"> </h3>
             <p>최대티어 레디언트</p>
         </div>
         <div class="booster-card">
             <h1>혜성</h1>
-            <h3>Radian<img src="rad.png" width="20px"> </h3>
+            <h3>Radiant<img src="rad.png" width="10px"> </h3>
             <p>최대티어 레디언트</p>
+        </div>
+         <div class="booster-card">
+            <h1>5oxive</h1>
+            <h3>Radiant<img src="rad.png" width="10px"> </h3>
+            <p>최대티어 레디언트 전 코치 경력</p>
         </div>
 
 
